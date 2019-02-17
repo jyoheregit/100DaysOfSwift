@@ -52,16 +52,15 @@ func returnSubtractFunction() -> (Int, Int) -> Int {
 }
 
 let subtractFunc = returnSubtractFunction()
-print(addFunc(20, 10))
+print(subtractFunc(20, 10))
 
 // Capture values
 
 func closureReturn() -> () -> Void {
     var outsideClosureValue = 10
     return  {
-        let value = outsideClosureValue + 10
-        outsideClosureValue += 1
-        print(value)
+        outsideClosureValue = outsideClosureValue + 10
+        print("outsideClosureValue \(outsideClosureValue)" )
     }
 }
 

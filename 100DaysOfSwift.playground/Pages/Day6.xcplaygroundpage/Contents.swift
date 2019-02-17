@@ -8,6 +8,8 @@ import Foundation
 // Closures as parameters – test
 // Trailing closure syntax – test
 
+// Think of closures like functions which you can pass and be called later.
+
 // cannot have external parameter names as functions
 //no need for parameter names while calling closures
 
@@ -50,7 +52,7 @@ var anotherValue = closureAsParameter { (firstNum, secondNum) -> Int in
 print(anotherValue)
 
 //or shorthand
-anotherValue = closureAsParameter{ $0 + $1 }
+anotherValue = closureAsParameter{ $0 + $1 } //$0 as first parameter, $1 as second parameter
 print("shorthand \(anotherValue) ")
 
 let driving = {

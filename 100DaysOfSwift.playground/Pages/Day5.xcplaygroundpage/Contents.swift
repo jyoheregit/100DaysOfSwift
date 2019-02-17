@@ -63,7 +63,7 @@ add(firsNumber: 20, secondNumber: 30)
 
 print("Haters", "gonna", "hate")
 
-func variadicAdd(numbers : Int...) {
+func variadicAdd(numbers : Int...) { //...after Data Type
     var total = 0
     for number in numbers {
         total += number

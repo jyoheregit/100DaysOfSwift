@@ -98,12 +98,16 @@ pointWithMutatingMethod.x
 
 // Properties and methods of strings
 
-let string = "Hello, How are you"
+var string = "Hello, How are you"
 string.count
 string.hasPrefix("Hell")
 string.hasSuffix("you")
 string.uppercased()
 string.sorted()
+string.contains("are")
+string.append(", Ram")
+string =  ""
+string.isEmpty
 
 // Properties and methods of arrays
 
