@@ -9,9 +9,8 @@ import Foundation
 // Trailing closure syntax – test
 
 // Think of closures like functions which you can pass and be called later.
-
 // cannot have external parameter names as functions
-//no need for parameter names while calling closures
+// no need for parameter names while calling closures
 
 // Creating basic closures
 
