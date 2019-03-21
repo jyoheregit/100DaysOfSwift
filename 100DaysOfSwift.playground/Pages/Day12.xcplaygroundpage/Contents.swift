@@ -91,7 +91,7 @@ func checkPassword(_ password: String) throws -> Bool? {
 }
 
 do {
-    try? checkPassword("password")
+    try checkPassword("password")
     print("That password is good!")
 } catch {
     print("You can't use that password.")
@@ -135,7 +135,6 @@ for employee in employees {
         print(contractEmployee.id)
     }
 }
-
 
 // Optionals let us represent the absence of a value in a clear and unambiguous way.
 // Swift won’t let us use optionals without unwrapping them, either using if let or using guard let.
